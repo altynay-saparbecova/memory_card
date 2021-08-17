@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* body {
+  background: radial-gradient(rgb(253 126 20 / 70%), rgb(55, 115, 119));
+  min-height: 100vh;
+} */
+body {
+  /* background: rgb(105, 121, 143); */
+  background: #00bfff url(https://www.eslgamesplus.com/wp-content/uploads/2012/08/blue-back-light1.jpg) center center no-repeat fixed;
+  /* overflow:hidden; */
+  background-size: cover;
+ 
+  
+ 
+}
+
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */

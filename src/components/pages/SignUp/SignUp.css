@@ -1,0 +1,106 @@
+.register {
+  border-radius: solid black;
+  list-style: none;
+
+  height: calc(110vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(
+      rgba(214, 179, 179, 0.5),
+      rgba(184, 142, 142, 0.5)
+    ),
+    url("../../../image/memory.jpg"); */
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: teal;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Times New Roman";
+  
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(119, 212, 72);
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-family: "Times New Roman";
+  
+  
+  /* padding-right: 10px; */
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .registerLoginButton {
+    list-style:none ;
+  }
+  /*
+    ... правила для смартфонов ...
+    выводим карточки товаров по 1 в ряд
+  */
+  .register {
+    border-radius: solid black;
+    list-style: none;
+  margin-top: 100px;
+    height: calc(110vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(
+        rgba(214, 179, 179, 0.5),
+        rgba(184, 142, 142, 0.5)
+      ),
+      url("../../../image/memory.jpg"); */
+    background-size: cover;
+  }
+
+
+
+  .register{
+    margin-top: -150px;
+  }
+  .registerLoginButton{
+    margin:20px 40px 0 0  ;
+    
+  }
+}

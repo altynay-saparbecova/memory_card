@@ -1,0 +1,41 @@
+header {
+  padding: 10px;
+  color: rgb(74, 49, 131);
+  background: white;
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  position: fixed;
+}
+
+.sub-header {
+  padding: 5px;
+  color: rgb(60, 33, 122);
+  font-size: 20px;
+  font-weight: 800;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+button {
+  color: rgb(60, 33, 122);
+  border-radius: 8px;
+  background-color: rgb(184, 184, 184);
+  margin-bottom: 8px;
+}
+button:hover {
+  color: rgb(239, 237, 245);
+  background-color: rgb(60, 33, 122);
+  font-weight: 800;
+}
+.bold {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sub-header{
+    padding-bottom: 80px;
+    padding-top: 20px;
+  }
+}

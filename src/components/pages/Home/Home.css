@@ -1,0 +1,127 @@
+.container {
+width: 700px;
+}
+.home {
+  margin: auto 0;
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  padding-right: 60px;
+  background: white;
+  
+}
+.container h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: blue;
+  font-style: italic;
+  font-weight: solid;
+  font-size: 28px;
+  margin-top: 90px;
+  
+}
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(230, 44, 44);
+  font-weight: bold;
+  flex-direction: column;
+
+}
+a.lgnn {
+text-decoration: none;
+}
+
+
+.lgn {
+  padding-right: 30px;
+  list-style: none;
+
+}
+.logoimg {
+ width: 200px;
+ height: 100px;
+ margin-left: 100px;
+
+}
+
+
+/* @media  (min-width:360px) { */
+  /*
+    ... правила для смартфонов ...
+    выводим карточки товаров по 1 в ряд
+  */
+  /* .home{
+    margin: auto 0;
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  
+}
+.logoimg {
+  width: 160px;
+  height: 80px;
+  margin-left: 10px;
+}
+.container, .container-md, .container-sm {
+  max-width: 720px;
+  margin-top: 70px;
+}
+} */
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+  
+.logoimg {
+  width: 200px;
+  height: 100px;
+  /* margin-left: 10px; */
+
+}
+.container h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(246, 246, 248);
+  font-style: italic;
+  font-weight: solid;
+  font-size: 28px;
+  margin-top: 250px;
+  
+}
+.lgn{
+  text-decoration: none;
+  
+ 
+  }
+  /*
+    ... правила для планшетов ...
+    выводим карточки товаров по 2 в ряд
+  */
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .logoimg {
+    width: 150px;
+    height: 70px;
+    margin-left: 10px;
+  
+  }
+  .container h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(30, 91, 221);
+    font-style: italic;
+    font-weight: solid;
+    font-size: 28px;
+    margin-top: 100px;
+    
+  }
+  
+}
